@@ -16,7 +16,7 @@ docker-present
 
   Usage:
 
-    docker run -ti -v /var/run/docker.sock:/var/run/docker.sock training/docker-present -p <port>
+    docker run -ti -v /var/run/docker.sock:/var/run/docker.sock bigfleet/docker-present -p <port>
 
     Note: Mounting the Docker socket is required.
 
